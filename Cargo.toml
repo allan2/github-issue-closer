@@ -1,0 +1,10 @@
+[package]
+name = "github-issue-closer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+octocrab = { git = "https://github.com/allan2/octocrab" }
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4", features = ["derive"] }
+jsonwebtoken = "8"
